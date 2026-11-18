@@ -1,0 +1,40 @@
+{
+  "Preference": {
+    "utility": "preferences_manager",
+    "dependencies": []
+  },
+
+  "Organization": {
+    "utility": "plmxml_import",
+    "dependencies": []
+  },
+
+  "ACL": {
+    "utility": "plmxml_import",
+    "dependencies": [
+      "Organization"
+    ]
+  },
+
+  "Workflow": {
+    "utility": "plmxml_import",
+    "dependencies": [
+      "Organization",
+      "ACL"
+    ]
+  },
+
+  "Saved Query": {
+    "utility": "plmxml_import",
+    "dependencies": [
+      "Organization"
+    ]
+  },
+
+  "XRT": {
+    "utility": "plmxml_import",
+    "dependencies": [
+      "BMIDE"
+    ]
+  }
+}

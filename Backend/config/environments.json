@@ -1,0 +1,17 @@
+{
+  "DEV": {
+    "server": "devserver",
+    "tc_root": "C:/Plm/Siemens/Teamcenter2312/teamcenter_root",
+    "tc_data": "C:/Plm/Siemens/Teamcenter2312/tc_data"
+  },
+  "QA": {
+    "server": "qaserver",
+    "tc_root": "C:/Plm/Siemens/Teamcenter2312/teamcenter_root",
+    "tc_data": "C:/Plm/Siemens/Teamcenter2312/tc_data"
+  },
+  "UAT": {
+    "server": "uatserver",
+    "tc_root": "C:/Plm/Siemens/Teamcenter2312/teamcenter_root",
+    "tc_data": "C:/Plm/Siemens/Teamcenter2312/tc_data"
+  }
+}
